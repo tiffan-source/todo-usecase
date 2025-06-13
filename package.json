@@ -1,0 +1,52 @@
+{
+    "name": "todo-usecase-entity",
+    "version": "1.0.4",
+    "description": "UseCase Module for Todo",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "homepage":"",
+    "keywords": [
+        "todo",
+        "usecase",
+        "repository",
+        "module"
+    ],
+    "author": "tiffan-source",
+    "license": "GNU",
+    "devDependencies": {
+        "@commitlint/cli": "^19.8.1",
+        "@commitlint/config-conventional": "^19.8.1",
+        "@eslint/js": "^9.28.0",
+        "@types/node": "^22.15.30",
+        "@typescript-eslint/parser": "^8.33.1",
+        "eslint": "^9.28.0",
+        "eslint-config-prettier": "^10.1.5",
+        "husky": "^9.1.7",
+        "prettier": "3.5.3",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.33.1"
+    },
+    "scripts": {
+        "prepare": "husky install",
+        "lint": "eslint . --ext .ts",
+        "prettier": "prettier --check .",
+        "build": "tsc"
+    },
+    "type": "module",
+    "main": "dist/src/index.js",
+    "types": "dist/src/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/src/index.js",
+            "types": "./dist/src/index.d.ts"
+        }
+    },
+    "lint-staged": {
+        "**/*.ts": [
+            "eslint --fix",
+            "prettier --write"
+        ]
+    }
+}
