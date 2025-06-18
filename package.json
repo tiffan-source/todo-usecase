@@ -1,12 +1,12 @@
 {
-    "name": "todo-usecase-entity",
-    "version": "1.0.4",
+    "name": "todo-usecase",
+    "version": "1.0.0",
     "description": "UseCase Module for Todo",
     "repository": {
         "type": "git",
         "url": ""
     },
-    "homepage":"",
+    "homepage": "",
     "keywords": [
         "todo",
         "usecase",
@@ -48,5 +48,8 @@
             "eslint --fix",
             "prettier --write"
         ]
+    },
+    "dependencies": {
+        "todo-entity": "^1.1.4"
     }
 }
