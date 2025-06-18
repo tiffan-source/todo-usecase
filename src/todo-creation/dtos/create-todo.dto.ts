@@ -11,6 +11,4 @@ export type CreateTodoOutput = {
   description?: string;
   dueDate?: Date;
   labels?: Array<{ title: string; color: string | null }>;
-  createdAt: Date;
-  updatedAt: Date;
 };
