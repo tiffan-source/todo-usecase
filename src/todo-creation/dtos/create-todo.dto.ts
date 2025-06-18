@@ -6,11 +6,11 @@ export type CreateTodoInput = {
 };
 
 export type CreateTodoOutput = {
-  id: string;
+  todoId: string;
   title: string;
   description?: string;
   dueDate?: Date;
-  labels?: string[];
+  labels?: Array<{ title: string; color: string | null }>;
   createdAt: Date;
   updatedAt: Date;
 };

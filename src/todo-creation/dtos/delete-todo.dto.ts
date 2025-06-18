@@ -1,5 +1,5 @@
 export type DeleteTodoInput = {
-  id: string;
+  todoId: string;
 };
 
 export type DeleteTodoOutput = {
