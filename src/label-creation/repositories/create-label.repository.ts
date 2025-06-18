@@ -1,10 +1,9 @@
 import type { Repository } from "common/repositories/repository.js";
-import type {
-  CreateLabelInput,
-  CreateLabelOutput,
-} from "label-creation/dtos/create-label.dto.js";
+import type { ILabel } from "todo-entity";
 
+export type CreateLabelRepositoryInput = ILabel;
+export type CreateLabelRepositoryOutput = ILabel;
 export interface CreateLabelRepository
-  extends Repository<CreateLabelInput, CreateLabelOutput> {
-  excute(input: CreateLabelInput): CreateLabelOutput;
+  extends Repository<CreateLabelRepositoryInput, CreateLabelRepositoryOutput> {
+  execute(input: CreateLabelRepositoryInput): CreateLabelRepositoryOutput;
 }

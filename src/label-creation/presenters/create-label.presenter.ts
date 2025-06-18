@@ -3,5 +3,5 @@ import type { IPresenter } from "common/presenters/presenter.js";
 import type { CreateLabelOutput } from "label-creation/dtos/create-label.dto.js";
 
 export interface CreateLabelPresenter extends IPresenter<CreateLabelOutput> {
-  present: (output: outputDto<CreateLabelOutput>) => void;
+  present(output: outputDto<CreateLabelOutput>): void;
 }
