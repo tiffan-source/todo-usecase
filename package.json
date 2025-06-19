@@ -4,9 +4,9 @@
     "description": "UseCase Module for Todo",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/tiffan-source/todo-usecase-entity.git"
     },
-    "homepage": "",
+    "homepage": "https://github.com/tiffan-source/todo-usecase-entity.git",
     "keywords": [
         "todo",
         "usecase",
