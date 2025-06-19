@@ -1,9 +1,9 @@
-import type { Repository } from "common/repositories/repository.js";
+import type { IRepository } from "common/repositories/repository.js";
 import type { ITodo } from "todo-entity";
 
 export type GetUncompletedTodosRepositoryOutput = Array<ITodo>;
 
 export interface GetUncompletedTodosRepository
-  extends Repository<void, GetUncompletedTodosRepositoryOutput> {
+  extends IRepository<void, GetUncompletedTodosRepositoryOutput> {
   execute(): GetUncompletedTodosRepositoryOutput;
 }

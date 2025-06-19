@@ -9,4 +9,3 @@ docs/
 commitlint.config.js
 tsconfig*.json
 *.log
-*.md

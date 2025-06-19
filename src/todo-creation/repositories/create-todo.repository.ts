@@ -1,8 +1,8 @@
-import type { Repository } from "common/repositories/repository.js";
+import type { IRepository } from "common/repositories/repository.js";
 import { type ITodo } from "todo-entity";
 
 export interface CreateTodoRepository
-  extends Repository<CreateTodoRepositoryInput, CreateTodoRepositoryOutput> {
+  extends IRepository<CreateTodoRepositoryInput, CreateTodoRepositoryOutput> {
   execute(input: CreateTodoRepositoryInput): CreateTodoRepositoryOutput;
 }
 

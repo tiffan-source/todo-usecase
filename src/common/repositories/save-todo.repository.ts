@@ -1,10 +1,10 @@
 import type { ITodo } from "todo-entity";
-import type { Repository } from "./repository.js";
+import type { IRepository } from "./repository.js";
 
 export type SaveTodoRepositoryInput = ITodo;
 export type SaveTodoRepositoryOutput = ITodo;
 
 export interface SaveTodoRepository
-  extends Repository<SaveTodoRepositoryInput, SaveTodoRepositoryOutput> {
+  extends IRepository<SaveTodoRepositoryInput, SaveTodoRepositoryOutput> {
   execute(input: SaveTodoRepositoryInput): SaveTodoRepositoryOutput;
 }

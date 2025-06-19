@@ -1,9 +1,9 @@
-import type { Repository } from "common/repositories/repository.js";
+import type { IRepository } from "common/repositories/repository.js";
 import type { ILabel } from "todo-entity";
 
 export type GetAllLabelRepositoryOutput = Array<ILabel>;
 
 export interface GetAllLabelRepository
-  extends Repository<void, GetAllLabelRepositoryOutput> {
+  extends IRepository<void, GetAllLabelRepositoryOutput> {
   execute(): GetAllLabelRepositoryOutput;
 }
