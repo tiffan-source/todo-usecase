@@ -3,5 +3,6 @@ export type GetAllTodoOutput = Array<{
   title: string;
   description?: string;
   dueDate?: Date;
-  labels?: Array<{ title: string; color: string | null }>;
+  doneDate?: Date;
+  labels?: Array<{ id: string; name: string; color: string | null }>;
 }>;
