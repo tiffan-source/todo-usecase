@@ -1,5 +1,5 @@
-import type { IRepository } from "common/repositories/repository.js";
 import type { ITodo } from "todo-entity";
+import type { IRepository } from "../../common/repositories/repository.js";
 
 export type DeleteTodoRepositoryInput = ITodo;
 export type DeleteTodoRepositoryOutput = boolean;

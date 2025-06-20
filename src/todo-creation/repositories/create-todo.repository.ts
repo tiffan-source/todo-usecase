@@ -1,5 +1,5 @@
-import type { IRepository } from "common/repositories/repository.js";
 import { type ITodo } from "todo-entity";
+import type { IRepository } from "../../common/repositories/repository.js";
 
 export interface ICreateTodoRepository
   extends IRepository<CreateTodoRepositoryInput, CreateTodoRepositoryOutput> {

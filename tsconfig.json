@@ -34,7 +34,6 @@
       /* Other Options: */
       "types": ["node"],
       "emitDeclarationOnly": false, // I don't want to emit declaration files only
-      "baseUrl": "./src"
     },
     "include": [
         "src/**/*.ts",

@@ -1,4 +1,4 @@
-import type { outputDto } from "common/dtos/outputDto.js";
+import type { outputDto } from "../dtos/outputDto.js";
 
 export interface IPresenter<I> {
   // The presenter interface defines the contract for presenting output data.
