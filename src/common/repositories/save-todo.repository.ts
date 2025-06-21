@@ -6,5 +6,5 @@ export type SaveTodoRepositoryOutput = ITodo;
 
 export interface SaveTodoRepository
   extends IRepository<SaveTodoRepositoryInput, SaveTodoRepositoryOutput> {
-  execute(input: SaveTodoRepositoryInput): SaveTodoRepositoryOutput;
+  execute(input: SaveTodoRepositoryInput): Promise<SaveTodoRepositoryOutput>;
 }

@@ -7,6 +7,7 @@ lib-cov
 *.pid
 *.gz
 *.swp
+*.tgz
 
 pids
 logs
@@ -29,6 +30,7 @@ bower_components
 # Editors
 .idea
 *.iml
+.vscode
 
 # OS metadata
 .DS_Store

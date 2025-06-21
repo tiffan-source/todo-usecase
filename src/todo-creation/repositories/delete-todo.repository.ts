@@ -6,5 +6,7 @@ export type DeleteTodoRepositoryOutput = boolean;
 
 export interface IDeleteTodoRepository
   extends IRepository<DeleteTodoRepositoryInput, DeleteTodoRepositoryOutput> {
-  execute(input: DeleteTodoRepositoryInput): DeleteTodoRepositoryOutput;
+  execute(
+    input: DeleteTodoRepositoryInput,
+  ): Promise<DeleteTodoRepositoryOutput>;
 }

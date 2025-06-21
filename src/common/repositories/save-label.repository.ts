@@ -6,5 +6,5 @@ export type SaveLabelRepositoryOutput = ILabel;
 
 export interface SaveLabelRepository
   extends IRepository<SaveLabelRepositoryInput, SaveLabelRepositoryOutput> {
-  execute(input: SaveLabelRepositoryInput): SaveLabelRepositoryOutput;
+  execute(input: SaveLabelRepositoryInput): Promise<SaveLabelRepositoryOutput>;
 }
