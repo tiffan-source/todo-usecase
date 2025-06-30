@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 1.4.0
+
+### Minor Changes
+
+- repository to get todo by id
+
 ## 1.3.1
 
 ### Patch Changes
