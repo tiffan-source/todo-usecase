@@ -32,7 +32,10 @@
         "prepare": "husky install",
         "lint": "eslint . --ext .ts",
         "prettier": "prettier --check .",
-        "build": "tsc"
+        "build": "tsc",
+        "changeset": "npx changeset",
+        "version": "changeset version",
+        "release": "changeset publish"
     },
     "type": "module",
     "main": "dist/src/index.js",
