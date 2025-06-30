@@ -1,6 +1,6 @@
 {
     "name": "todo-usecase",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "UseCase Module for Todo",
     "repository": {
         "type": "git",

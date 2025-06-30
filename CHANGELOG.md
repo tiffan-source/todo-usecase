@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 1.4.2
+
+### Patch Changes
+
+- 634cda9: rerun CI after fail
+
 ## 1.4.1
 
 ### Patch Changes
