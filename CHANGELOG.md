@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 1.3.1
+
+### Patch Changes
+
+- correct save todo and label repository naming
+
 ## 1.2.0
 
 ### Minor Changes
