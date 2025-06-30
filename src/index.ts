@@ -5,6 +5,7 @@
 export * from "./common/dtos/inputDto.js";
 export * from "./common/dtos/outputDto.js";
 export * from "./common/presenters/presenter.js";
+export * from "./common/repositories/get-todo-by-id.repository.js";
 export * from "./common/repositories/repository.js";
 export * from "./common/repositories/save-label.repository.js";
 export * from "./common/repositories/save-todo.repository.js";
