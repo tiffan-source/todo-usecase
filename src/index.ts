@@ -23,3 +23,19 @@ export * from "./todo-creation/usecases/create-todo.interactor.js";
 export * from "./todo-creation/usecases/delete-todo.interactor.js";
 export * from "./todo-creation/validations/create-todo.validation.js";
 export * from "./todo-creation/validations/delete-todo.validation.js";
+
+// 📦 todo-modification
+export * from "./todo-modification/dtos/mark-todo-as-completed.dto.js";
+export * from "./todo-modification/dtos/mark-todo-as-uncompleted.dto.js";
+export * from "./todo-modification/presenters/mark-todo-as-completed.presenter.js";
+export * from "./todo-modification/presenters/mark-todo-as-uncompleted.presenter.js";
+export * from "./todo-modification/usecases/mark-todo-as-completed.interactor.js";
+export * from "./todo-modification/usecases/mark-todo-as-uncompleted.interactor.js";
+export * from "./todo-modification/validations/mark-todo-as-completed.validation.js";
+export * from "./todo-modification/validations/mark-todo-as-uncompleted.validation.js";
+
+// 📦 todo-retrieval
+export * from "./todo-retrieval/dtos/get-all-todo.dto.js";
+export * from "./todo-retrieval/presenters/get-all-todo.presenter.js";
+export * from "./todo-retrieval/repositories/get-all-todo.repository.js";
+export * from "./todo-retrieval/usecases/get-all-todo.interactor.js";
