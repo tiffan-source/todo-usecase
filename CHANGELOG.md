@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 1.5.0
+
+### Minor Changes
+
+- a8342e6: accept null as result for getting Todo from repository
+
 ## 1.4.2
 
 ### Patch Changes
