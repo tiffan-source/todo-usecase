@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 1.6.0
+
+### Minor Changes
+
+- 16b593f: remove message from validation error
+
 ## 1.5.0
 
 ### Minor Changes
