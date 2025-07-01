@@ -3,8 +3,6 @@ export class ValidationError {
   private readonly field: string;
   private readonly customMessage?: string;
 
-  private readonly messages: Record<string, string> = {};
-
   constructor(rule: string, field: string, customMessage?: string) {
     this.rule = rule;
     this.field = field;
@@ -19,6 +17,6 @@ export class ValidationError {
       return this.customMessage;
     }
 
-    return "On " + this.field + " : " + (this.messages[this.rule] || "");
+    return `Validation failed for field "${this.field}" with rule "${this.rule}".`;
   }
 }
