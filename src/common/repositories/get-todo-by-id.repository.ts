@@ -2,7 +2,7 @@ import type { ITodo } from "todo-entity";
 import type { IRepository } from "./repository.js";
 
 export type GetTodoByIdRepositoryInput = string;
-export type GetTodoByIdRepositoryOutput = ITodo;
+export type GetTodoByIdRepositoryOutput = ITodo | null;
 
 export interface IGetTodoByIdRepository
   extends IRepository<GetTodoByIdRepositoryInput, GetTodoByIdRepositoryOutput> {
