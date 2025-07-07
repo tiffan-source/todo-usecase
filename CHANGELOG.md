@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 2.0.1
+
+### Patch Changes
+
+- c77fee4: setup a generic type on IPresenter interface instead of submethode setCallback
+
 ## 2.0.0
 
 ### Major Changes
