@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 2.0.0
+
+### Major Changes
+
+- db704cc: add a callback setter to presenter
+
 ## 1.6.0
 
 ### Minor Changes
