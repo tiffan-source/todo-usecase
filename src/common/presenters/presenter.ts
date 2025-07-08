@@ -1,6 +1,6 @@
 import type { outputDto } from "../dtos/outputDto.js";
 
-export interface IPresenter<I, O> {
+export interface IPresenter<I, O = object> {
   // The presenter interface defines the contract for presenting output data.
   // It should be implemented by classes that handle the presentation logic.
 
