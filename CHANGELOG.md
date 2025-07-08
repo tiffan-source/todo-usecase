@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.3.0
+
+### Minor Changes
+
+- 715a9e0: protocol to get all uncompleted todo
+
 ## 3.2.0
 
 ### Minor Changes
