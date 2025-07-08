@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.3.1
+
+### Patch Changes
+
+- ccbeee1: rename GetUncompletedTodosInteractor to IGetUncompletedTodosInteractor
+
 ## 3.3.0
 
 ### Minor Changes
