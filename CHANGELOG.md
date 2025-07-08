@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.0.0
+
+### Major Changes
+
+- 46b3902: allow class implementor to define input type of callback
+
 ## 2.0.1
 
 ### Patch Changes
