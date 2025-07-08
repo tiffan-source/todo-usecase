@@ -3,7 +3,7 @@ import type { IRepository } from "../../common/repositories/repository.js";
 
 export type GetUncompletedTodosRepositoryOutput = Array<ITodo>;
 
-export interface GetUncompletedTodosRepository
+export interface IGetUncompletedTodosRepository
   extends IRepository<void, GetUncompletedTodosRepositoryOutput> {
   execute(): Promise<GetUncompletedTodosRepositoryOutput>;
 }
