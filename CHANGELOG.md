@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.2.0
+
+### Minor Changes
+
+- 7657ac0: add default ouput presenter type on all presenter
+
 ## 3.1.0
 
 ### Minor Changes
