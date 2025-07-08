@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.3.2
+
+### Patch Changes
+
+- d9500e2: fix all protocol name of get uncompleted todo
+
 ## 3.3.1
 
 ### Patch Changes
