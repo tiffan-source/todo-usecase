@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.6.1
+
+### Patch Changes
+
+- 3132953: fix repository name for label checking repository
+
 ## 3.6.0
 
 ### Minor Changes
