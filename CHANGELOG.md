@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.4.0
+
+### Minor Changes
+
+- 8953127: permit option to create label when creating todo
+
 ## 3.3.2
 
 ### Patch Changes
