@@ -28,6 +28,7 @@ export * from "./label-creation/validations/delete-label.validation.js";
 // 📦 label-retrieval
 export * from "./label-retrieval/dtos/get-all-label.dto.js";
 export * from "./label-retrieval/presenters/get-all-label.presenter.js";
+export * from "./label-retrieval/repositories/check-label-exist.repository.js";
 export * from "./label-retrieval/repositories/get-all-label.repository.js";
 export * from "./label-retrieval/usecases/get-all-label.interactor.js";
 

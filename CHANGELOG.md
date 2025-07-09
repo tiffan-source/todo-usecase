@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.6.0
+
+### Minor Changes
+
+- be9fd02: set interface repository to check label exist
+
 ## 3.5.0
 
 ### Minor Changes
