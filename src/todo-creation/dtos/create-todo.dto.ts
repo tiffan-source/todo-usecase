@@ -3,6 +3,7 @@ export type CreateTodoInput = {
   description?: string;
   dueDate?: Date;
   labelIds?: string[];
+  newLabelTitles?: string[];
 };
 
 export type CreateTodoOutput = {
