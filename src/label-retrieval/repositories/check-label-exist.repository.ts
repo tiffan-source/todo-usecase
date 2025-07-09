@@ -1,7 +1,6 @@
-import type { ILabel } from "todo-entity";
 import type { IRepository } from "../../common/repositories/repository.js";
 
-type CheckLabelExistRepositoryInput = ILabel;
+type CheckLabelExistRepositoryInput = string;
 type CheckLabelExistRepositoryOutput = boolean;
 
 export interface ICheckLabelExistRepository
