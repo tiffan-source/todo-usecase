@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.6.3
+
+### Patch Changes
+
+- 955cad0: fix delete label presenter name
+
 ## 3.6.2
 
 ### Patch Changes
