@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.6.2
+
+### Patch Changes
+
+- f6b9394: fix check label repo input type
+
 ## 3.6.1
 
 ### Patch Changes
