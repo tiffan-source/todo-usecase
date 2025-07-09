@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.5.0
+
+### Minor Changes
+
+- f294880: add protocol for label creation suppresion and retrieval
+
 ## 3.4.0
 
 ### Minor Changes

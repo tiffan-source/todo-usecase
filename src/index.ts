@@ -13,6 +13,24 @@ export * from "./common/usecases/interactor.js";
 export * from "./common/validations/validation-error.js";
 export * from "./common/validations/validation.js";
 
+// 📦 label-creation
+export * from "./label-creation/dtos/create-label.dto.js";
+export * from "./label-creation/dtos/delete-label.dto.js";
+export * from "./label-creation/presenters/create-label.presenter.js";
+export * from "./label-creation/presenters/delete-label.presenter.js";
+export * from "./label-creation/repositories/create-label.repository.js";
+export * from "./label-creation/repositories/delete-label.repository.js";
+export * from "./label-creation/usecases/create-label.interactor.js";
+export * from "./label-creation/usecases/delete-label.interactor.js";
+export * from "./label-creation/validations/create-label.validation.js";
+export * from "./label-creation/validations/delete-label.validation.js";
+
+// 📦 label-retrieval
+export * from "./label-retrieval/dtos/get-all-label.dto.js";
+export * from "./label-retrieval/presenters/get-all-label.presenter.js";
+export * from "./label-retrieval/repositories/get-all-label.repository.js";
+export * from "./label-retrieval/usecases/get-all-label.interactor.js";
+
 // 📦 todo-creation
 export * from "./todo-creation/dtos/create-todo.dto.js";
 export * from "./todo-creation/dtos/delete-todo.dto.js";
