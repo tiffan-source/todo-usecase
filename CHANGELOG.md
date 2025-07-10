@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.6.4
+
+### Patch Changes
+
+- bc80d6b: delete input repository must be string to handle id
+
 ## 3.6.3
 
 ### Patch Changes
