@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.7.0
+
+### Minor Changes
+
+- 1fcafe2: get label by id repository interface
+
 ## 3.6.4
 
 ### Patch Changes
