@@ -1,7 +1,7 @@
 import type { IRepository } from "../../common/repositories/repository.js";
 
-type CheckLabelExistRepositoryInput = string;
-type CheckLabelExistRepositoryOutput = boolean;
+export type CheckLabelExistRepositoryInput = string;
+export type CheckLabelExistRepositoryOutput = boolean;
 
 export interface ICheckLabelExistRepository
   extends IRepository<
