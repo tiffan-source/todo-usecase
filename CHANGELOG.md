@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 3.7.1
+
+### Patch Changes
+
+- f110189: export input output for check label repository
+
 ## 3.7.0
 
 ### Minor Changes
