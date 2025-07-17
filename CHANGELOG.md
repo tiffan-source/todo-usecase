@@ -1,5 +1,16 @@
 # todo-usecase
 
+## 4.0.0
+
+### Major Changes
+
+- 5d4e75e: remove the setter of callback setter (presenter impolementation will define how to inject in the constructor set callback setter for viewmodel)
+
+### Patch Changes
+
+- c3fecf3: remove get todo by id repo on common sub module
+- 9a78755: add repository and presenter interface for get todo by id and fix import on interactor
+
 ## 3.7.1
 
 ### Patch Changes

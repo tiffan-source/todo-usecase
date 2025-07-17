@@ -5,7 +5,6 @@
 export * from "./common/dtos/inputDto.js";
 export * from "./common/dtos/outputDto.js";
 export * from "./common/presenters/presenter.js";
-export * from "./common/repositories/get-todo-by-id.repository.js";
 export * from "./common/repositories/repository.js";
 export * from "./common/repositories/save-label.repository.js";
 export * from "./common/repositories/save-todo.repository.js";
@@ -57,10 +56,15 @@ export * from "./todo-modification/validations/mark-todo-as-uncompleted.validati
 
 // 📦 todo-retrieval
 export * from "./todo-retrieval/dtos/get-all-todo.dto.js";
+export * from "./todo-retrieval/dtos/get-todo-by-id.dto.js";
 export * from "./todo-retrieval/dtos/get-uncompleted-todos.dto.js";
 export * from "./todo-retrieval/presenters/get-all-todo.presenter.js";
+export * from "./todo-retrieval/presenters/get-todo-by-id.presenter.js";
 export * from "./todo-retrieval/presenters/get-uncompleted-todos.presenter.js";
 export * from "./todo-retrieval/repositories/get-all-todo.repository.js";
+export * from "./todo-retrieval/repositories/get-todo-by-id.repository.js";
 export * from "./todo-retrieval/repositories/get-uncompleted-todos.repository.js";
 export * from "./todo-retrieval/usecases/get-all-todo.interactor.js";
+export * from "./todo-retrieval/usecases/get-todo-by-id.interactor.js";
 export * from "./todo-retrieval/usecases/get-uncompleted-todos.interactor.js";
+export * from "./todo-retrieval/validations/get-todo-by-id.validation.js";
