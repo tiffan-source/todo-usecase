@@ -1,8 +1,3 @@
-export type GetUncompletedTodosOutput = Array<{
-  todoId: string;
-  title: string;
-  description?: string;
-  dueDate?: Date;
-  doneDate?: Date;
-  labels?: Array<{ id: string; name: string; color: string | null }>;
-}>;
+import type { GetTodoByIdOutput } from "./get-todo-by-id.dto.js";
+
+export type GetUncompletedTodosOutput = Array<GetTodoByIdOutput>;
