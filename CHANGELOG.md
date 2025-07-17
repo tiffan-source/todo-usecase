@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 4.0.1
+
+### Patch Changes
+
+- 629b495: fix get todo by id repo return. allow null if todo not found
+
 ## 4.0.0
 
 ### Major Changes
