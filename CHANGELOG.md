@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 5.0.1
+
+### Patch Changes
+
+- 758c8e8: fix input type of get all todo repository
+
 ## 5.0.0
 
 ### Major Changes
