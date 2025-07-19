@@ -1,5 +1,12 @@
 # todo-usecase
 
+## 5.0.0
+
+### Major Changes
+
+- b8a536f: Delete protocol for gettin todo not done
+  Add option for filter all todo
+
 ## 4.0.1
 
 ### Patch Changes
