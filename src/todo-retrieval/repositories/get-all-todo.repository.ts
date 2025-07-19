@@ -10,6 +10,8 @@ export type GetAllTodoRepositoryInput = {
 export type GetAllTodoRepositoryOutput = Array<ITodo>;
 
 export interface IGetAllTodoRepository
-  extends IRepository<void, GetAllTodoRepositoryOutput> {
-  execute(): Promise<GetAllTodoRepositoryOutput>;
+  extends IRepository<GetAllTodoRepositoryInput, GetAllTodoRepositoryOutput> {
+  execute(
+    input: GetAllTodoRepositoryInput,
+  ): Promise<GetAllTodoRepositoryOutput>;
 }
