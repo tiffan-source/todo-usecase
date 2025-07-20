@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 5.1.0
+
+### Minor Changes
+
+- 8b2f6df: add protocole for todo edition
+
 ## 5.0.1
 
 ### Patch Changes
