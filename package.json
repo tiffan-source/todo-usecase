@@ -54,6 +54,6 @@
     },
     "dependencies": {
         "@changesets/cli": "^2.29.5",
-        "todo-entity": "^1.1.4"
+        "todo-entity": "^2.0.0"
     }
 }
