@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 5.1.1
+
+### Patch Changes
+
+- 4328349: update todo-entity version
+
 ## 5.1.0
 
 ### Minor Changes
