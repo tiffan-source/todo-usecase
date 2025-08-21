@@ -4,9 +4,8 @@ import type { IRepository } from "../../common/repositories/repository.js";
 export type CreateLabelRepositoryInput = ILabel;
 export type CreateLabelRepositoryOutput = ILabel;
 
-export interface ICreateLabelRepository
-  extends IRepository<CreateLabelRepositoryInput, CreateLabelRepositoryOutput> {
-  execute(
+export interface ICreateLabelRepository extends IRepository {
+  createLabel(
     input: CreateLabelRepositoryInput,
   ): Promise<CreateLabelRepositoryOutput>;
 }

@@ -3,7 +3,6 @@ import type { IRepository } from "../../common/repositories/repository.js";
 
 export type GetAllLabelRepositoryOutput = Array<ILabel>;
 
-export interface IGetAllLabelRepository
-  extends IRepository<void, GetAllLabelRepositoryOutput> {
-  execute(): Promise<GetAllLabelRepositoryOutput>;
+export interface IGetAllLabelRepository extends IRepository {
+  getAllLabels(): Promise<GetAllLabelRepositoryOutput>;
 }
