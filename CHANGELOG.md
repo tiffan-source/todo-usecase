@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 6.0.0
+
+### Major Changes
+
+- 791d807: feat: update repository interfaces to use specific method names
+
 ## 5.1.1
 
 ### Patch Changes
