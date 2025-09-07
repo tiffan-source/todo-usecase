@@ -4,6 +4,7 @@ export type GetAllTodoInput = {
   filters?: {
     done?: boolean;
     dueDate?: Date[];
+    labelIds?: string[];
   };
 };
 

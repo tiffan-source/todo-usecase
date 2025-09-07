@@ -5,6 +5,7 @@ export type GetAllTodoRepositoryInput = {
   filters?: {
     done?: boolean;
     dueDate?: Date[];
+    labelsIds?: string[];
   };
 };
 export type GetAllTodoRepositoryOutput = Array<ITodo>;
