@@ -1,5 +1,11 @@
 # todo-usecase
 
+## 6.1.0
+
+### Minor Changes
+
+- f5b671e: add labels filter protocole on get all todo
+
 ## 6.0.0
 
 ### Major Changes
